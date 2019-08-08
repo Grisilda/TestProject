@@ -1,5 +1,5 @@
 FROM openjdk
 MAINTAINER Grisilda Rapanj <grisildarapanj@gmail.com>
-COPY target/Taleas-*.jar target/Taleas.jar
-ENTRYPOINT ["java", "-jar", "Taleas.jar"]
+COPY target/WebCrawlerMain-*.jar target/WebCrawlerMain.jar
+ENTRYPOINT ["java", "-jar", "WebCrawlerMain.jar"]
 EXPOSE 8080
